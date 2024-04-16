@@ -9,7 +9,7 @@
 .container{
     width: 100%;
     min-height: 100vh;
-    background-image: url(list.png);
+    background-image: url(./images/list.png);
     padding: 10px;
     
 }
@@ -78,7 +78,7 @@ ul li::before{
     height: 25px;
     width: 25px;
     border-radius: 50%;
-    background-image: url(circle_icon.png);
+    background-image: url(./images/circle_icon.png);
     background-size: cover;
     background-position: center;
     top:12px;
@@ -89,7 +89,7 @@ ul li.checked{
     text-decoration: line-through;
 }
 ul li.checked::before{
-    background-image: url(check_icon.png);
+    background-image: url(./images/check_icon.png);
 }
 ul li span{
     position: absolute;
